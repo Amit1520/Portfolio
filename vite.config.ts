@@ -8,7 +8,7 @@ export default defineConfig(({mode}) => {
   return {
 // IMPORTANT: Change this to your repository name for GitHub Pages
     // Example: base: '/my-portfolio-repo/',
-    base: '/Portfolio/',
+    base: '/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
